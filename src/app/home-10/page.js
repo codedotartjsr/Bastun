@@ -4,8 +4,8 @@ import ThemeController from "@/components/shared/others/ThemeController";
 import PageWrapper from "@/components/shared/wrappers/PageWrapper";
 
 export const metadata = {
-  title: "Home 10 | Bastun- Business Consulting Next Js Template",
-  description: "Home 10 | Bastun- Business Consulting Next Js Template",
+  title: "Home 10 | Bastun- Business Consulting ",
+  description: "Home 10 | Bastun- Business Consulting ",
 };
 export default function Home10() {
   return (

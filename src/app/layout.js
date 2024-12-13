@@ -17,8 +17,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Home 1 | Bastun- Business Consulting Next Js Template",
-  description: "Home 1 | Bastun- Business Consulting Next Js Template",
+  title: "Bastun- Business Consulting",
+  description: "Bastun- Business Consulting",
 };
 
 export default function RootLayout({ children }) {
