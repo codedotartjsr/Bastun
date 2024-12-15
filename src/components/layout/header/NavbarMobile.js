@@ -8,190 +8,190 @@ const NavbarMobile = () => {
   const mobileItems = [
     {
       name: isOnepage ? "HOME" : "Home",
-      toggler: true,
+     // toggler: true,
       path: isOnepage ? "#" : "/",
       dropdown: isOnepage ? false : true,
       nestedDropdown: isOnepage ? false : true,
-      dropdownItems: [
-        {
-          name: "Multipages",
-          path: "#",
-          toggler: true,
-          dropdown: true,
-          items: [
-            {
-              name: "Business Consulting",
-              path: "/",
-            },
-            {
-              name: "Marketing Consulting",
-              path: "/home-2",
-            },
-            {
-              name: "Corporate Business",
-              path: "/home-3",
-            },
-            {
-              name: "Digital Agency",
-              path: "/home-4",
-            },
-            {
-              name: "Finance Consulting",
-              path: "/home-5",
-            },
-            {
-              name: "Insurance",
-              path: "/home-6",
-            },
-            {
-              name: "Human Resource",
-              path: "/home-7",
-            },
+      // dropdownItems: [
+      //   {
+      //     name: "Multipages",
+      //     path: "#",
+      //     toggler: true,
+      //     dropdown: true,
+      //     items: [
+      //       {
+      //         name: "Business Consulting",
+      //         path: "/",
+      //       },
+      //       {
+      //         name: "Marketing Consulting",
+      //         path: "/home-2",
+      //       },
+      //       {
+      //         name: "Corporate Business",
+      //         path: "/home-3",
+      //       },
+      //       {
+      //         name: "Digital Agency",
+      //         path: "/home-4",
+      //       },
+      //       {
+      //         name: "Finance Consulting",
+      //         path: "/home-5",
+      //       },
+      //       {
+      //         name: "Insurance",
+      //         path: "/home-6",
+      //       },
+      //       {
+      //         name: "Human Resource",
+      //         path: "/home-7",
+      //       },
 
-            {
-              name: "Creative Agency",
-              path: "/home-8",
-            },
-            {
-              name: "eCommerce",
-              path: "/home-9",
-            },
-            {
-              name: "Personal Portfolio",
-              path: "/home-10",
-            },
-            {
-              name: "SEO Agency",
-              path: "/home-11",
-            },
-            {
-              name: "Creative Portfolio",
-              path: "/home-12",
-            },
-            {
-              name: "Event Conference",
-              path: "/home-13",
-            },
-            {
-              name: "Sass App",
-              path: "/home-14",
-            },
-            {
-              name: "Freelancer",
-              path: "/home-15",
-            },
+      //       {
+      //         name: "Creative Agency",
+      //         path: "/home-8",
+      //       },
+      //       {
+      //         name: "eCommerce",
+      //         path: "/home-9",
+      //       },
+      //       {
+      //         name: "Personal Portfolio",
+      //         path: "/home-10",
+      //       },
+      //       {
+      //         name: "SEO Agency",
+      //         path: "/home-11",
+      //       },
+      //       {
+      //         name: "Creative Portfolio",
+      //         path: "/home-12",
+      //       },
+      //       {
+      //         name: "Event Conference",
+      //         path: "/home-13",
+      //       },
+      //       {
+      //         name: "Sass App",
+      //         path: "/home-14",
+      //       },
+      //       {
+      //         name: "Freelancer",
+      //         path: "/home-15",
+      //       },
 
-            {
-              name: "Technology",
-              path: "/home-16",
-            },
-            {
-              name: "Web Agency",
-              path: "/home-17",
-            },
-            {
-              name: "Travel Agency",
-              path: "/home-18",
-            },
-            {
-              name: "International Consulting",
-              path: "/home-19",
-            },
-            {
-              name: "Startup",
-              path: "/home-20",
-            },
-          ],
-        },
-        {
-          name: "Onepage",
-          path: "#",
-          toggler: true,
-          dropdown: true,
-          items: [
-            {
-              name: "Business Consulting",
-              path: "/index-onepage",
-            },
-            {
-              name: "Marketing Consulting",
-              path: "/home-2-onepage",
-            },
-            {
-              name: "Corporate Business",
-              path: "/home-3-onepage",
-            },
-            {
-              name: "Digital Agency",
-              path: "/home-4-onepage",
-            },
-            {
-              name: "Finance Consulting",
-              path: "/home-5-onepage",
-            },
-            {
-              name: "Insurance",
-              path: "/home-6-onepage",
-            },
-            {
-              name: "Human Resource",
-              path: "/home-7-onepage",
-            },
-            {
-              name: "Creative Agency",
-              path: "/home-8-onepage",
-            },
-            {
-              name: "eCommerce",
-              path: "/home-9-onepage",
-            },
-            {
-              name: "Personal Portfolio",
-              path: "/home-10-onepage",
-            },
-            {
-              name: "SEO Agency",
-              path: "/home-11-onepage",
-            },
-            {
-              name: "Creative Portfolio",
-              path: "/home-12-onepage",
-            },
-            {
-              name: "Event Conference",
-              path: "/home-13-onepage",
-            },
-            {
-              name: "Sass App",
-              path: "/home-14-onepage",
-            },
-            {
-              name: "Freelancer",
-              path: "/home-15-onepage",
-            },
-            {
-              name: "Technology",
-              path: "/home-16-onepage",
-            },
-            {
-              name: "Web Agency",
-              path: "/home-17-onepage",
-            },
-            {
-              name: "Travel Agency",
-              path: "/home-18-onepage",
-            },
-            {
-              name: "International Consulting",
-              path: "/home-19-onepage",
-            },
-            {
-              name: "Startup",
-              path: "/home-20-onepage",
-            },
-          ],
-        },
-      ],
+      //       {
+      //         name: "Technology",
+      //         path: "/home-16",
+      //       },
+      //       {
+      //         name: "Web Agency",
+      //         path: "/home-17",
+      //       },
+      //       {
+      //         name: "Travel Agency",
+      //         path: "/home-18",
+      //       },
+      //       {
+      //         name: "International Consulting",
+      //         path: "/home-19",
+      //       },
+      //       {
+      //         name: "Startup",
+      //         path: "/home-20",
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     name: "Onepage",
+      //     path: "#",
+      //     toggler: true,
+      //     dropdown: true,
+      //     items: [
+      //       {
+      //         name: "Business Consulting",
+      //         path: "/index-onepage",
+      //       },
+      //       {
+      //         name: "Marketing Consulting",
+      //         path: "/home-2-onepage",
+      //       },
+      //       {
+      //         name: "Corporate Business",
+      //         path: "/home-3-onepage",
+      //       },
+      //       {
+      //         name: "Digital Agency",
+      //         path: "/home-4-onepage",
+      //       },
+      //       {
+      //         name: "Finance Consulting",
+      //         path: "/home-5-onepage",
+      //       },
+      //       {
+      //         name: "Insurance",
+      //         path: "/home-6-onepage",
+      //       },
+      //       {
+      //         name: "Human Resource",
+      //         path: "/home-7-onepage",
+      //       },
+      //       {
+      //         name: "Creative Agency",
+      //         path: "/home-8-onepage",
+      //       },
+      //       {
+      //         name: "eCommerce",
+      //         path: "/home-9-onepage",
+      //       },
+      //       {
+      //         name: "Personal Portfolio",
+      //         path: "/home-10-onepage",
+      //       },
+      //       {
+      //         name: "SEO Agency",
+      //         path: "/home-11-onepage",
+      //       },
+      //       {
+      //         name: "Creative Portfolio",
+      //         path: "/home-12-onepage",
+      //       },
+      //       {
+      //         name: "Event Conference",
+      //         path: "/home-13-onepage",
+      //       },
+      //       {
+      //         name: "Sass App",
+      //         path: "/home-14-onepage",
+      //       },
+      //       {
+      //         name: "Freelancer",
+      //         path: "/home-15-onepage",
+      //       },
+      //       {
+      //         name: "Technology",
+      //         path: "/home-16-onepage",
+      //       },
+      //       {
+      //         name: "Web Agency",
+      //         path: "/home-17-onepage",
+      //       },
+      //       {
+      //         name: "Travel Agency",
+      //         path: "/home-18-onepage",
+      //       },
+      //       {
+      //         name: "International Consulting",
+      //         path: "/home-19-onepage",
+      //       },
+      //       {
+      //         name: "Startup",
+      //         path: "/home-20-onepage",
+      //       },
+      //     ],
+      //   },
+      // ],
     },
     {
       name:
@@ -205,8 +205,8 @@ const NavbarMobile = () => {
           ? "COLLECTION"
           : isOnepage && (style === 2 || style === 3)
           ? "ABOUT"
-          : "Pages",
-      toggler: true,
+          : "",
+     // toggler: true,
       path:
         isOnepage && home === 19
           ? "#tb__strategy"
@@ -223,53 +223,53 @@ const NavbarMobile = () => {
           : "#",
       dropdown: isOnepage ? false : true,
 
-      dropdownItems: [
-        {
-          name: "Blog",
-          path: "/blogs",
-        },
-        {
-          name: "Blog Details",
-          path: "/blogs/1",
-        },
-        {
-          name: "Projects",
-          path: "/projects",
-        },
-        {
-          name: "Projects Details",
-          path: "/projects/1",
-        },
-        {
-          name: "Service",
-          path: "/services",
-        },
-        {
-          name: "Service Details",
-          path: "/services/1",
-        },
+      // dropdownItems: [
+      //   {
+      //     name: "Blog",
+      //     path: "/blogs",
+      //   },
+      //   {
+      //     name: "Blog Details",
+      //     path: "/blogs/1",
+      //   },
+      //   {
+      //     name: "Projects",
+      //     path: "/projects",
+      //   },
+      //   {
+      //     name: "Projects Details",
+      //     path: "/projects/1",
+      //   },
+      //   {
+      //     name: "Service",
+      //     path: "/services",
+      //   },
+      //   {
+      //     name: "Service Details",
+      //     path: "/services/1",
+      //   },
 
-        {
-          name: "Team",
-          path: "/team",
-        },
-        {
-          name: "Team Details",
-          path: "/team/1",
-        },
-        {
-          name: "FAQ",
-          path: "/faq",
-        },
-        {
-          name: "Error 404",
-          path: "/error",
-        },
-        {
-          name: "Login",
-          path: "/login",
-        },
-      ],
+      //   {
+      //     name: "Team",
+      //     path: "/team",
+      //   },
+      //   {
+      //     name: "Team Details",
+      //     path: "/team/1",
+      //   },
+      //   {
+      //     name: "FAQ",
+      //     path: "/faq",
+      //   },
+      //   {
+      //     name: "Error 404",
+      //     path: "/error",
+      //   },
+      //   {
+      //     name: "Login",
+      //     path: "/login",
+      //   },
+      // ],
     },
     {
       name:
@@ -281,7 +281,7 @@ const NavbarMobile = () => {
           ? "SERVICE"
           : style === 3 && headerType === 3
           ? "PROJECTS"
-          : "eCommerce",
+          : "Blog",
       toggler: true,
       path:
         isOnepage && home === 13
@@ -292,43 +292,43 @@ const NavbarMobile = () => {
           ? "#service__area"
           : style === 3 && headerType === 3
           ? "#project__area"
-          : "/home-9",
+          : "/blogs",
       dropdown: isOnepage ? false : true,
-      dropdownItems: [
-        {
-          name: "Shop",
-          path: "/shop",
-        },
-        {
-          name: "Product Details",
-          path: "/products/1",
-        },
-        {
-          name: "Shop 2 Column",
-          path: "/shop-2-column",
-        },
-        {
-          name: "Shop 3 Column",
-          path: "/shop-3-column",
-        },
-        {
-          name: "Shop 4 Column",
-          path: "/shop-4-column",
-        },
-        {
-          name: "Cart",
-          path: "/cart",
-        },
-        {
-          name: "Checkout",
-          path: "/checkout",
-        },
+      // dropdownItems: [
+      //   {
+      //     name: "Shop",
+      //     path: "/shop",
+      //   },
+      //   {
+      //     name: "Product Details",
+      //     path: "/products/1",
+      //   },
+      //   {
+      //     name: "Shop 2 Column",
+      //     path: "/shop-2-column",
+      //   },
+      //   {
+      //     name: "Shop 3 Column",
+      //     path: "/shop-3-column",
+      //   },
+      //   {
+      //     name: "Shop 4 Column",
+      //     path: "/shop-4-column",
+      //   },
+      //   {
+      //     name: "Cart",
+      //     path: "/cart",
+      //   },
+      //   {
+      //     name: "Checkout",
+      //     path: "/checkout",
+      //   },
 
-        {
-          name: "Wishlist",
-          path: "/wishlist",
-        },
-      ],
+      //   {
+      //     name: "Wishlist",
+      //     path: "/wishlist",
+      //   },
+      // ],
     },
     {
       name:

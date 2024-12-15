@@ -14,7 +14,7 @@ const NavItem = ({ item }) => {
     >
       <Link className="headerarea__has__dropdown" href={path}>
         {name}
-        {icon ? <i className="icofont-long-arrow-down"></i> : ""}
+        {/* {icon ? <i className="icofont-long-arrow-down"></i> : ""} */}
       </Link>
       {dropdown ? dropdown : ""}
     </li>

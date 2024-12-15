@@ -2083,7 +2083,7 @@ button.default__button {
 }
 .headerarea__common__dropdown:hover .headerarea__submenu {
   top: 100%;
-  visibility: visible;
+  /* visibility: visible; */
   opacity: 1;
   clip: rect(0px, 100vw, 200vh, -30px);
   transition: clip 0.6s linear, opacity 0.4s linear;
@@ -3042,6 +3042,7 @@ button.default__button {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   background-color: var(--blackColor);
+  display: none;
 }
 
 .offcanvas__sub_menu_toggle:not(.active)::after {
